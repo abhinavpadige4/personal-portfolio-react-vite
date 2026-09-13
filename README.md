@@ -142,8 +142,6 @@ MIT License - feel free to use this portfolio as a template for your own!
 
 ## Acknowledgments
 
-- [Vite](https://vitejs.dev/) - Next generation frontend tooling
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [Framer Motion](https://www.framer.com/motion/) - Animation library for React
-- [React Icons](https://react-icons.github.io/react-icons/) - Popular icons library
-- [EmailJS](https://www.emailjs.com/) - Email service for contact forms
+- Built with ❤️ using React and Vite
+- Deployed on Vercel
+- Last updated: $(date)
