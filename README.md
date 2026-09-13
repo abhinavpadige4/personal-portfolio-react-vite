@@ -144,4 +144,4 @@ MIT License - feel free to use this portfolio as a template for your own!
 
 - Built with ❤️ using React and Vite
 - Deployed on Vercel
-- Last updated: $(date)
+- Last updated: 2024-01-15
