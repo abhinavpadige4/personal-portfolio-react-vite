@@ -1,4 +1,4 @@
-import { FiGitHub, FiMail, FiLinkedin } from 'react-icons/fi'
+import { FiGithub, FiMail, FiLinkedin } from 'react-icons/fi'
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         
         <div className="flex space-x-6">
           <a href="#" className="hover:text-accent transition-colors">
-            <FiGitHub size={24} />
+            <FiGithub size={24} />
           </a>
           <a href="#" className="hover:text-accent transition-colors">
             <FiLinkedin size={24} />
