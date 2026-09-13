@@ -1,4 +1,4 @@
-import { FiGitHub, FiExternalLink } from 'react-icons/fi'
+import { FiGithub, FiExternalLink } from 'react-icons/fi'
 import { motion } from 'framer-motion'
 import { ProjectType } from '../../utils/constants'
 
@@ -40,7 +40,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
             rel="noopener noreferrer"
             className="flex items-center space-x-2 px-4 py-2 bg-muted/20 text-muted rounded hover:bg-muted/30 transition-colors"
           >
-            <FiGitHub size={16} />
+            <FiGithub size={16} />
             <span>GitHub</span>
           </a>
           
