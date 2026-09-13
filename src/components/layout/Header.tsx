@@ -1,5 +1,5 @@
 'next/link'
-import { useDarkMode } from '../hooks/useDarkMode'
+import { useDarkMode } from '../../hooks/useDarkMode'
 import { FiMenu, FiX, FiSun, FiMoon } from 'react-icons/fi'
 import { useState } from 'react'
 
