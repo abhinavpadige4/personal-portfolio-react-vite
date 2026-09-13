@@ -1,0 +1,30 @@
+import { BrowserRouter } from 'react-router-dom'
+import Header from './components/layout/Header'
+import Hero from './sections/Hero'
+import About from './sections/About'
+import Skills from './sections/Skills'
+import Projects from './sections/Projects'
+import Experience from './sections/Experience'
+import Contact from './sections/Contact'
+import Footer from './components/layout/Footer'
+
+function App() {
+  return (
+    <BrowserRouter>
+      <div className="min-h-screen bg-background text-foreground transition-colors duration-200">
+        <Header />
+        <main>
+          <Hero />
+          <About />
+          <Skills />
+          <Projects />
+          <Experience />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
+    </BrowserRouter>
+  )
+}
+
+export default App
