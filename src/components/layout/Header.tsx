@@ -1,4 +1,4 @@
-import Link from 'next/link'
+'next/link'
 import { useDarkMode } from '../hooks/useDarkMode'
 import { FiMenu, FiX, FiSun, FiMoon } from 'react-icons/fi'
 import { useState } from 'react'
@@ -12,24 +12,24 @@ const Header = () => {
       <div className="flex items-center space-x-4">
         <h1 className="text-xl font-bold text-foreground">Portfolio</h1>
         <nav className="hidden md:flex space-x-8">
-          <Link href="#hero" className="hover:text-accent transition-colors">
+          <a href="#hero" className="hover:text-accent transition-colors">
             Hero
-          </Link>
-          <Link href="#about" className="hover:text-accent transition-colors">
+          </a>
+          <a href="#about" className="hover:text-accent transition-colors">
             About
-          </Link>
-          <Link href="#skills" className="hover:text-accent transition-colors">
+          </a>
+          <a href="#skills" className="hover:text-accent transition-colors">
             Skills
-          </Link>
-          <Link href="#projects" className="hover:text-accent transition-colors">
+          </a>
+          <a href="#projects" className="hover:text-accent transition-colors">
             Projects
-          </Link>
-          <Link href="#experience" className="hover:text-accent transition-colors">
+          </a>
+          <a href="#experience" className="hover:text-accent transition-colors">
             Experience
-          </Link>
-          <Link href="#contact" className="hover:text-accent transition-colors">
+          </a>
+          <a href="#contact" className="hover:text-accent transition-colors">
             Contact
-          </Link>
+          </a>
         </nav>
       </div>
       
@@ -55,24 +55,24 @@ const Header = () => {
       {isMenuOpen && (
         <div className="md:hidden absolute top-16 left-0 w-full bg-background/95 backdrop-blur-md border-t border-border p-4">
           <nav className="space-y-4">
-            <Link href="#hero" className="block hover:text-accent transition-colors py-2">
+            <a href="#hero" className="block hover:text-accent transition-colors py-2">
               Hero
-            </Link>
-            <Link href="#about" className="block hover:text-accent transition-colors py-2">
+            </a>
+            <a href="#about" className="block hover:text-accent transition-colors py-2">
               About
-            </Link>
-            <Link href="#skills" className="block hover:text-accent transition-colors py-2">
+            </a>
+            <a href="#skills" className="block hover:text-accent transition-colors py-2">
               Skills
-            </Link>
-            <Link href="#projects" className="block hover:text-accent transition-colors py-2">
+            </a>
+            <a href="#projects" className="block hover:text-accent transition-colors py-2">
               Projects
-            </Link>
-            <Link href="#experience" className="block hover:text-accent transition-colors py-2">
+            </a>
+            <a href="#experience" className="block hover:text-accent transition-colors py-2">
               Experience
-            </Link>
-            <Link href="#contact" className="block hover:text-accent transition-colors py-2">
+            </a>
+            <a href="#contact" className="block hover:text-accent transition-colors py-2">
               Contact
-            </Link>
+            </a>
           </nav>
         </div>
       )}
