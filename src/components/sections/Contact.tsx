@@ -1,13 +1,13 @@
-import { FiMail, FiPhone, FiMapPin } from 'react-icons/fi'
+import { useState, FormEvent } from 'react'; import { FiMail, FiPhone, FiMapPin } from 'react-icons/fi'
 import { motion } from 'framer-motion'
-import emailjs from '@emailjs/browser'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
-  const [isSubmitting, setIsSubmitting] = React.useState(false)
-  const [showSuccess, setShowSuccess] = React.useState(false)
-  const [showError, setShowError] = React.useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [showSuccess, setShowSuccess] = useState(false)
+  const [showError, setShowError] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
     
